@@ -10,6 +10,8 @@ const sequelize = new Sequelize(
     }
 );
 
+sequelize.sync()
+
 module.exports = {
     sequelize
 }
